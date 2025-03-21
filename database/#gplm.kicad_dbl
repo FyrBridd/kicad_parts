@@ -6,11 +6,11 @@
     "description": "KiCad components database",
     "source": {
         "type": "odbc",
-        "dsn": "",
+        "dsn": "KicadDb",
         "username": "",
         "password": "",
         "timeout_seconds": 10,
-        "connection_string": "DRIVER={SQLite3};DATABASE=${CWD}/parts.sqlite"
+        "connection_string": "DRIVER=SQLite3 ODBC Driver;DATABASE=${CWD}/parts.sqlite"
     },
     "libraries": [
         {
@@ -566,19 +566,12 @@
             ]
         },
         {
-            "name": "res",
+            "name": "Resistors",
             "table": "res",
-            "key": "IPN",
+            "key": "MPN",
             "symbols": "Symbol",
             "footprints": "Footprint",
             "fields": [
-                {
-                    "column": "IPN",
-                    "name": "IPN",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                },
                 {
                     "column": "Resistance",
                     "name": "Value",
@@ -629,12 +622,55 @@
                     "show_name": false
                 },
                 {
+                    "column": "Temperature Coefficient",
+                    "name": "Temperature Coefficient",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "JLCPCB Type",
+                    "name": "JLCPCB Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "JLCPCB PN",
+                    "name": "JLCPCB PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Mouser PN",
+                    "name": "Mouser PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
                     "column": "Datasheet",
                     "name": "Datasheet",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 }
+
             ]
         },
         {
