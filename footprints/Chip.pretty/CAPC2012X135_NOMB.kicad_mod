@@ -1,4 +1,4 @@
-(footprint "CAPC2012X100_NOMB"
+(footprint "CAPC2012X135_NOMB"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CAPC2012X100_NOMB"
+	(property "Value" "CAPC2012X135_NOMB"
 		(at 0 1.7 0)
 		(layer "F.Fab")
 		(uuid "c8b0a43f-eb80-49fa-9f77-e02d4b03d7c9")
@@ -165,7 +165,7 @@
 		(uuid "b2dc4744-6f7a-4267-a134-185dba0d1741")
 	)
 	(embedded_fonts no)
-	(model "${GITPLM_PARTS}/3d_models/Chip/CAPC2012X100.stp"
+	(model "${GITPLM_PARTS}/3d_models/Chip/CAPC2012X135.stp"
 		(offset
 			(xyz 0 0 0)
 		)
