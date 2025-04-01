@@ -1,4 +1,4 @@
-(footprint "RESC1005X40_NOMB"
+(footprint "CAPC3216X140_NOMB"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,7 +6,7 @@
 	(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor")
 	(property "Reference" "REF**"
-		(at 0 -1.2 0)
+		(at 0 -1.8 0)
 		(layer "F.SilkS")
 		(uuid "41d78466-b78f-4259-a93b-b5098dbbea74")
 		(effects
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "RESC1005X40_NOMB"
-		(at 0 1.2 0)
+	(property "Value" "CAPC3216X140_NOMB"
+		(at 0 1.8 0)
 		(layer "F.Fab")
 		(uuid "c8b0a43f-eb80-49fa-9f77-e02d4b03d7c9")
 		(effects
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.93 -0.47)
-		(end 0.93 -0.47)
+		(start -2.225 -1.075)
+		(end 2.225 -1.075)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "37a147d4-3d5d-4a47-8102-c954a7e61a94")
 	)
 	(fp_line
-		(start -0.93 0.47)
-		(end -0.93 -0.47)
+		(start -2.225 1.075)
+		(end -2.225 -1.075)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "1121d59e-f03d-42ac-85a2-357338f6cb7d")
 	)
 	(fp_line
-		(start 0.93 -0.47)
-		(end 0.93 0.47)
+		(start 2.225 -1.075)
+		(end 2.225 1.075)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "332a6d58-096d-4cc7-9324-96105a58f8d7")
 	)
 	(fp_line
-		(start 0.93 0.47)
-		(end -0.93 0.47)
+		(start 2.225 1.075)
+		(end -2.225 1.075)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "a5090ca4-de76-43ea-a14c-c1e11daae04b")
 	)
 	(fp_line
-		(start -0.55 -0.275)
-		(end 0.55 -0.275)
+		(start -1.675 -0.875)
+		(end 1.675 -0.875)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "ab9e8747-b37b-4830-9372-c45b6e571f09")
 	)
 	(fp_line
-		(start -0.55 0.275)
-		(end -0.55 -0.275)
+		(start -1.675 0.875)
+		(end -1.675 -0.875)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "3efa2f2c-1877-4dcc-914d-5e9d06a61f10")
 	)
 	(fp_line
-		(start 0.55 -0.275)
-		(end 0.55 0.275)
+		(start 1.675 -0.875)
+		(end 1.675 0.875)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "be66e16d-9918-4c52-b0d7-0d397372d213")
 	)
 	(fp_line
-		(start 0.55 0.275)
-		(end -0.55 0.275)
+		(start 1.675 0.875)
+		(end -1.675 0.875)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -140,14 +140,14 @@
 		(uuid "3061a90f-a481-4c92-b184-11e8cdb5c40e")
 		(effects
 			(font
-				(size 0.26 0.26)
-				(thickness 0.04)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.457 0)
-		(size 0.59 0.55)
+		(at -1.45 0)
+		(size 1.15 1.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(solder_mask_margin 0.05)
@@ -155,8 +155,9 @@
 		(uuid "71bd5113-61af-4f98-a937-b89111941731")
 	)
 	(pad "2" smd roundrect
-		(at 0.457 0)
-		(size 0.59 0.55)
+		(at 1.45 0)
+		(size 1.15 1.75)
+		(property pad_prop_testpoint)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(solder_mask_margin 0.05)
@@ -164,7 +165,7 @@
 		(uuid "b2dc4744-6f7a-4267-a134-185dba0d1741")
 	)
 	(embedded_fonts no)
-	(model "${GITPLM_PARTS}/3d_models/Chip/RESC1005X40.stp"
+	(model "${GITPLM_PARTS}/3d_models/Chip/CAPC3216X140.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,5 +1,5 @@
 # define all of your libs here -- should be a CSV file for each lib
-GPLMLIBS="capacitors resistors"
+GPLMLIBS="discrete_diodes_rectifiers passives_capacitors_mlccs passives_capacitors_polymer_capacitors passives_resistors_film_resistors pmics_controllers_switching_controllers power_transformers_power_transformers power_transformers_pulse_transformers"
 
 DBFILE=./database/parts.sqlite
 

@@ -1,0 +1,201 @@
+(footprint "CAPAE1030X1270_NOMB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "177135d9-9993-4602-8ec3-52ef8e062084")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPAE1030X1270_NOMB"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "708623d6-c03d-49d8-9409-8b52512e969f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "155021fb-4656-4856-a8ad-7e1e567b47f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdb47446-d49d-4b28-a15b-f6e27dae3585")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.65 -5.65)
+		(end -5.65 -3.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a088fc04-3726-4199-b6f3-c673441464be")
+	)
+	(fp_line
+		(start -5.65 -5.65)
+		(end -3.65 -5.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64a0096c-bf92-47bb-9d47-f16359aed3a1")
+	)
+	(fp_line
+		(start -6.7 -5.65)
+		(end -6.7 5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "735db6bf-74fc-410e-8b89-231bbe64d467")
+	)
+	(fp_line
+		(start -6.7 5.65)
+		(end 6.7 5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca63d626-e59b-4175-84b1-a5a152ed5c68")
+	)
+	(fp_line
+		(start 6.7 -5.65)
+		(end -6.7 -5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f12a9ea-e73e-44fc-8c0c-09ea53f71246")
+	)
+	(fp_line
+		(start 6.7 5.65)
+		(end 6.7 -5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "151e35bd-e971-41ab-a07b-7d5ff3486666")
+	)
+	(fp_line
+		(start -5.25 -5.25)
+		(end -5.25 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "930cf53d-d6e6-4048-837c-2e48a814c621")
+	)
+	(fp_line
+		(start -5.25 5.25)
+		(end 5.25 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25d017c4-e796-4c08-9b59-9f70b6cdada4")
+	)
+	(fp_line
+		(start 5.25 -5.25)
+		(end -5.25 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb19ee2e-0250-45d7-bb17-cfcb083abba0")
+	)
+	(fp_line
+		(start 5.25 5.25)
+		(end 5.25 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0b307ca-2e72-4c97-bf29-b5802c510daa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "83a2eeb9-40d4-43ab-84f1-874b2a34f3af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.3 0)
+		(size 4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.05)
+		(clearance 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "bba6d56d-b321-4bdb-a14f-ad4eedc4ec05")
+	)
+	(pad "2" smd roundrect
+		(at 4.3 0)
+		(size 4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.05)
+		(clearance 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "55f45aa5-4c4c-4591-bbc4-f7d54fb10720")
+	)
+	(embedded_fonts no)
+	(model "${GITPLM_PARTS}/3d_models/Electrolytic/CAPAE1030X1270.stp"
+		(offset
+			(xyz 5.25 5.25 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
